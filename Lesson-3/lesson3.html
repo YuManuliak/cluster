@@ -1,12 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tables</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 3px;
+        }
+    </style>
 </head>
 <body>
     
+    <table>
+        <caption>Lesson 3 table</caption>
+        <tr id="1">
+            <td rowspan="2">Cell 1</td>
+            <td colspan="2">Cell 2</td>
+            <td colspan="2">Cell 3</td>
+            <td>Cell 4</td>
+        </tr>
+        <tr id="2">
+            <td colspan="4">Cell 5</td>
+            <td>Cell 6</td>
+        </tr>
+        <tr id="3">
+            <td>Cell 7</td>
+            <td>Cell 8</td>
+            <td rowspan="2">Cell 9</td>
+            <td>Cell 10</td>
+            <td>Cell 11</td>
+            <td>Cell 12</td>
+        </tr>
+        <tr id="4">
+            <td rowspan="2">Cell 13</td>
+            <td>Cell 14</td>
+            <td>Cell 15</td>
+            <td colspan="2" rowspan="3">Cell 16</td>
+        </tr>
+        <tr id="5">
+            <td colspan="3" rowspan="2">Cell 18</td>
+        </tr>
+        <tr id="6">
+            <td>Cell 17</td>
+        </tr>
+    </table>
+
 </body>
 </html>
