@@ -1,0 +1,9 @@
+.twit > p {
+    color: blue;
+}
+.post ~ p {
+    color: red;
+}
+p[data-alt^="just"] {
+    color: green;
+}
