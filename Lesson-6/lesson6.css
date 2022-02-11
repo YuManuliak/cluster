@@ -1,0 +1,45 @@
+.list {
+    list-style: none;
+    background-color: salmon;
+    padding: 0;
+    margin: 0;
+}
+.list > li {
+    display: inline-block;
+    margin-left: -4px;
+    padding: 10px;
+    border-right: 1px solid black;
+}
+.list > li:last-child {
+    border-right: none;
+}
+
+p:empty {
+    padding: 10px;
+    border: 3px solid;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #5aadd6;
+    background-position: 10px 10px;
+}
+
+p:empty:hover {
+    border-color: red;
+    background-color: rgba(14, 167, 0, 0.493);
+}
+
+p:empty::after {
+    content: attr(data-text);
+    font-size: 18px;
+
+}
+p:not(:empty):nth-child(2n+5) {
+    color: blue;
+}
+p:last-child {
+    color: green;
+}
+.text:nth-child(2n) {
+    color: tomato;
+}
