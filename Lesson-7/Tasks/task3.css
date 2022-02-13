@@ -1,0 +1,15 @@
+.button-item {
+    display: inline-block;
+    margin: 5px;
+    padding: 1px;
+    font-size: 20px;
+    text-align: center;
+    height: 22px;
+    width: 22px;
+    border-radius: 4px;
+    background-image: radial-gradient(#ffffff, #e7e7e7);
+    box-shadow: 0 0 2px rgb(49, 49, 49);
+}
+.button-item:hover {
+    box-shadow: 0 0 4px rgb(24, 24, 24);
+}
