@@ -1,0 +1,13 @@
+blockquote {
+    position: absolute;
+    display: inline-block;
+}
+blockquote::before, blockquote::after {
+    content: "«";
+    font-size: 36px;
+    color: #8a0000;
+    line-height: 0;
+}
+blockquote::after {
+    content: "»";
+}

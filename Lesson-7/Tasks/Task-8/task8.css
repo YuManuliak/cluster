@@ -20,13 +20,16 @@ body {
 .menu-item:last-child {
     border-right: none;
 }
-.menu-item a:first-child {
+.menu-item:first-child {
     color: red;
 }
-.menu-item a:nth-child(2) {
+.menu-item:nth-child(2) {
     color: aqua;
 }
-.menu-item a:nth-child(3) {
+.menu-item:nth-child(3) {
     color: yellow;
+}
+.menu-item a {
+    color: inherit;
 }
 
