@@ -1,11 +1,28 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+body {
+    perspective: 400px;
 }
-:root {
-    --primary: green;
+.post {
+    width: 400px;
+    margin: 30px auto;
+    padding: 10px;
+    box-shadow: 0 0 5px black;
 }
-.text {
-    color: #red;
+.post:hover {
+    opacity: 0.6;
+    transition: .5s;
+}
+.post:first-child {
+    transform: rotate(45deg);
+}
+.post:nth-child(2):hover {
+    transform: translate(10px, 10px);
+    transition: all .3s linear;
+}
+.post:nth-child(3):hover {
+    transform: skewX(20deg);
+    transition: all .2s linear;
+}
+.post:nth-child(4):hover {
+    transform: rotateY(20deg);
+    transition: all .2s linear;
 }
