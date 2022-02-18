@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Блокова модель</title>
+
+    <style>
+        * {
+            box-sizing: border-box; 
+            margin: 0;
+            padding: 0;
+            /* добрий тон саме так задавати box-sizing */
+            /* І взагалі саме так починати писати стилі */
+        }
+       body {
+           height: 2000px;
+       }
+       .wrapper {
+           margin: 300px auto;
+           max-width: 700px;
+           width: 100%;
+           border: 1px solid black;
+           height: 1200px;
+       }
+       .box1, .box2 {
+           position: absolute;
+           width: 200px;
+           height: 200px;
+           background-color: blueviolet;
+       }
+       .box2 {
+           background-color: green;
+       }
+    </style>
+
 </head>
 <body>
     
+    <div class="wrapper">
+        <div class="box1">
+
+        </div>
+        <div class="box2">
+
+        </div>
+
+    </div>
+
 </body>
 </html>

@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 20px;
+}
+.menu-list {
+    background-color: #333333;
+    height: 40px;
+    font-size: 20px;
+    padding: 3px;
+}
+.menu-item {
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 5px;
+}
+.menu-item:last-child {
+    border-right: none;
+}
+.menu-item a:first-child {
+    color: red;
+}
+.menu-item a:nth-child(2) {
+    color: aqua;
+}
+.menu-item a:nth-child(3) {
+    color: yellow;
+}
+
