@@ -1,13 +1,25 @@
+body {
+    padding: 20px;
+}
 blockquote {
-    position: absolute;
-    display: inline-block;
+    position: relative;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20px;
 }
 blockquote::before, blockquote::after {
-    content: "«";
-    font-size: 36px;
+    position: absolute;
+    font-size: 40px;
     color: #8a0000;
-    line-height: 0;
+}
+blockquote::before {
+    content: "«";
+    top: -15px;
+    left: -30px;
 }
 blockquote::after {
     content: "»";
+    bottom: -10px;
+    right: -30px;
 }
