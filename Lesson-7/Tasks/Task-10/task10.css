@@ -18,7 +18,6 @@ ul {
     font-size: 20px;
 }
 .attributes-item li {
-    display: inline-block;
     float: right;
     margin: 5px;
     width: 18px;
