@@ -1,17 +1,19 @@
-ul {
-    list-style: none;
-}
 .attributes {
     width: 430px;
     height: 200px;
     padding: 20px;
 }
 .attributes-item ul {
+    list-style: none;
     display: inline-block;
     margin: 5px;
     padding: 5px 20px 5px 30px;
     width: 350px;
     background-color: #878F94;
+}
+.attributes-item ul::before {
+    position: absolute;
+    content: "12345";
 }
 .attributes-item ul span {
     color: white;
