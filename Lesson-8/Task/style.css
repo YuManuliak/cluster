@@ -1,0 +1,50 @@
+body {
+    background-color: #E6E7E9;
+    font-family: "Roboto";
+    color: var(--font-color);
+}
+p {
+    text-align: justify;
+}
+h1 {
+    color: #1C9FEC;
+}
+h1, h3, .workplace, .software, .ref-name {
+    text-transform: uppercase;
+}
+.cv-title {
+    background-color: #E0E1E3;
+    height: 50px;
+    padding: 15px;
+}
+.cv {
+    margin: auto;
+    width: 95%;
+    height: 95%;
+    background-color: white;
+}
+.left-bar {
+    margin: 10px;
+    float: left;
+    background-color: #E0E1E3;
+    height: 1200px;
+    width: 400px;
+}
+.contacts-menu {
+    list-style: none;
+    color: white;
+}
+.contacts-item {
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+}
+.contacts-item:first-child {
+    background-color: #1C578F;
+}
+.contacts-item:nth-child(2) {
+    background-color: #1C6EB8;
+}
+.contacts-item:last-child {
+    background-color: #1D8BD8;
+}
