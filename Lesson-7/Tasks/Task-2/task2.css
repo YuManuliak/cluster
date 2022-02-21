@@ -1,0 +1,16 @@
+.main-button {
+    height: 50px;
+    width: 300px;
+    border: none;
+    color: white;
+    background-color: #008000;
+    padding: 15px;
+    text-align: left;
+    border-radius: 5px;
+    font-family: "Arial Black";
+    text-transform: uppercase;
+}
+.main-button:hover {
+    background-color: #004d00;
+    cursor: pointer;
+}

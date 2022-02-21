@@ -1,0 +1,68 @@
+.attributes {
+    width: 430px;
+    height: 200px;
+    padding: 20px;
+}
+.attributes-item ul {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px 5px 30px;
+    width: 350px;
+    height: 30px;
+    background-color: #878F94;
+}
+.attributes-item ul::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 32px 22px 0 0;
+    border-color: #ffffff transparent transparent transparent;
+
+}
+.attributes-item ul::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 32px 22px;
+    border-color: transparent transparent #ffffff transparent;
+}
+.attributes-item ul span {
+    color: white;
+    font-size: 20px;
+}
+.attributes-item li {
+    float: right;
+    margin: 5px;
+    width: 18px;
+    height: 18px;
+    background-color: #D3D5D4;
+    transform: skew(-35deg);
+}
+.charge li:nth-child(n+6) {
+    background-color: #51DBB3;
+}
+.charge li:nth-child(4), .charge li:nth-child(5) {
+    background-color: #DBD651;
+}
+.charge li:nth-child(2), .charge li:nth-child(3) {
+    background-color: #DB8F51;
+}
+.force li:nth-child(5) {
+    background-color: #DBD651;
+}
+.force li:nth-child(6), .force li:nth-child(7) {
+    background-color: #51DBB3;
+}
+.recharge li:nth-child(7) {
+    background-color: #51DBB3;
+}
