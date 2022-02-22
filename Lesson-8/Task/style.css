@@ -26,7 +26,7 @@ h3 {
     font-size: 25px;
     letter-spacing: 3px;
 }
-h1, h3, .workplace, .software, .ref-name {
+h1, h3, .place, .software, .ref-name {
     text-transform: uppercase;
 }
 .cv-title {
@@ -38,7 +38,7 @@ h1, h3, .workplace, .software, .ref-name {
     margin: 30px;
     float: left;
     background-color: #E0E1E3;
-    height: 1200px;
+    height: 1500px;
     width: 400px;
 }
 .contacts-menu {
@@ -77,6 +77,11 @@ header {
 header h3, header p {
     margin-top: 10px;
 }
-main {
-    width: 100%;
+.exp-edu {
+    display: flex;
+    flex-direction: column;
+}
+.hobbies {
+    display: flex;
+    flex-direction: row;
 }
