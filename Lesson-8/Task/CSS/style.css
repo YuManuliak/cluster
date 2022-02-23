@@ -1,3 +1,5 @@
+/* General */
+
 body {
     background-color: #E6E7E9;
     font-family: "Roboto";
@@ -8,9 +10,6 @@ body {
     width: 95%;
     height: 95%;
     background-color: white;
-}
-.left-bar {
-    display: inline-block;
 }
 p {
     text-align: justify;
@@ -34,7 +33,11 @@ h1, h3, .place, .software, .ref-name {
     height: 50px;
     padding: 10px;
 }
+
+/* Aside Bar */
+
 .left-bar {
+    display: block;
     margin: 30px;
     float: left;
     background-color: #E0E1E3;
@@ -69,6 +72,67 @@ h1, h3, .place, .software, .ref-name {
     margin-left: 120px;
     margin-top: 5%;
 }
+.personal {
+    display: flex;
+}
+.colon::before {
+    content: ":";
+    color: #727375;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.skills {
+    display: flex;
+}
+.progress {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.prog-bar {
+    width: 220px;
+    height: 5px;
+    background-color: #AAAAAC;
+}
+.prog-bar .communication {
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    background-color: #1CA0ED;
+}
+.prog-bar .creativity {
+    position: absolute;
+    width: 190px;
+    height: 5px;
+    background-color: #1CA0ED;
+}
+.prog-bar .teamwork {
+    position: absolute;
+    width: 185px;
+    height: 5px;
+    background-color: #1CA0ED;
+}
+.prog-bar .organizational {
+    position: absolute;
+    width: 180px;
+    height: 5px;
+    background-color: #1CA0ED;
+}
+.prog-bar .leadership {
+    position: absolute;
+    width: 160px;
+    height: 5px;
+    background-color: #1CA0ED;
+}
+.prog-bar .teamplayer {
+    position: absolute;
+    width: 160px;
+    height: 5px;
+    background-color: #1CA0ED;
+}
+
+/* header */
+
 header {
     width: 100%;
     height: 350px;
@@ -77,6 +141,8 @@ header {
 header h3, header p {
     margin-top: 10px;
 }
+
+/* Main part */
 .exp-edu {
     display: flex;
     flex-direction: column;
