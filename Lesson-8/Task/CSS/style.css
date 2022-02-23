@@ -44,6 +44,9 @@ h1, h3, .place, .software, .ref-name {
     height: 1500px;
     width: 400px;
 }
+.left-bar img {
+    display: block;
+}
 .contacts-menu {
     list-style: none;
     color: white;
